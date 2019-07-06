@@ -1,5 +1,7 @@
-n=input()
-if (n.isdigit()):
+r=str(input())
+try:
+    float(r)
     print("yes")
-else:
-    print("no")
+except:
+    print("No")
+
